@@ -9,8 +9,8 @@ html {
 
 body, .container, .links {
     display: flex;
-
 }
+
 body {
     background-color: black;
     width: 100%;
