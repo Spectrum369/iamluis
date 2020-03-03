@@ -3,7 +3,7 @@ window.onload = function() {
         selector: '.background',
         maxParticles: 300,
         connectParticles: true,
-        color: '#adabab',
+        color: '#bf3413',
         minDistance: 80,
         sizeVariations: 4,
         //responsive
