@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luis</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/particles.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/howler.js"></script>
     </head>
     <body>
 
@@ -34,9 +37,14 @@
                 </a>
             </div>
         </div>
-        <script src="js/particles.min.js"></script>
-        <script src="js/script.js"></script>
+        <script>
+            var sonido = new Howl({
+                src: ['music/adrenaline.mp3'],
+                autoplay: true,
+                loop: true,
+            });
 
-        
+            sonido.play();
+        </script>
     </body>
 </html>
